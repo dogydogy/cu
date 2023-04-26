@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  outline: none;
+}
+
+a:hover,
+a:focus {
+  color: #414146;
+}
+
+
+
+.codrops-links {
+  position: relative;
+  width: 100vw;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.codrops-header {
+  position: relative;
+  z-index: 100;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  color: #f0f0f0;
+}
+
+.codrops-links {
+  position: relative;
+  width: 100%;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* display: inline-block;
+	white-space: nowrap; */
+  /* text-align: center; */
+  /* border: 2px solid #414146; */
+}
+
+.codrops-logo {
+	/* font-size: 28px; */
+  width: 64px;
+  height: 64px;
+}
+
+.codrops-logo a img{
+  width: 64px;
+  height: 64px;
+}
+
+.codrops-nav_list {
+  display: flex;
+  align-items: center;
+}
+.codrops-nav_list li {
+  margin-left: 45px;
+}
+.codrops-nav_list li a{
+	font-size: 18px;
+	font-weight: 600;
+  color: black;
+}
+.codrops-nav_list li a.active{
+  color: #981ce5;
+}
+.codrops-header li a:hover {
+  color: #981ce5;
+}
+
+.firstbox {
+  margin-top: 100px;
+  display: grid;
+  row-gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.firstbox img {
+  border: 1px solid black;
+  width: 450px;
+}
+
