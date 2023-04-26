@@ -127,7 +127,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(-60px, -60px);
+  transform: translate(-61px, -60px);
   max-width: 450px;
   max-height: 450px;
   border-radius: 50%;
@@ -490,5 +490,12 @@
   .slide__link{
     top: 20px;
   }
+  
+  .ho-con{
+    transform: translate(-42px, -40px);
+    max-width: 260px;
+    max-height: 260px;
+  }
   /* drawer */
+
 }
